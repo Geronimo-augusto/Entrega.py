@@ -47,8 +47,8 @@ Contribuições são bem-vindas! Se você encontrar problemas ou tiver sugestõe
 ### Licença
 Este projeto está licenciado sob a Licença MIT. Sinta-se à vontade para usar, modificar e distribuir o código conforme necessário.
 
-## Autores
+# Autores
 ## Grupo GRM solutions
-## Integrantes:
+### Integrantes:
 - Geronimo Augusto RM- 557170
 - Murilo Cordeiro RM- 556727
