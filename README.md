@@ -27,16 +27,16 @@ O sistema irá coletar dados climáticos, analisá-los e fazer previsões de tem
 
 ## Funcionamento do Código
 ### Coleta de Dados Climáticos
-A função get_weather_data(city, api_key) na linha 13 é responsável por obter os dados climáticos da API da OpenWeatherMap para a cidade especificada. Ela usa a chave da API e a cidade como entrada e retorna os dados climáticos.
+A função `get_weather_data(city, api_key)` na linha 13 é responsável por obter os dados climáticos da API da OpenWeatherMap para a cidade especificada. Ela usa a chave da API e a cidade como entrada e retorna os dados climáticos.
 
 ### Análise dos Dados Climáticos
-A função analyze_weather_data(weather_data) na linha 37 analisa os dados climáticos coletados e fornece aconselhamento sobre navegação, pesca e mergulho com base nessas condições. Ela retorna alertas e aconselhamento para cada atividade.
+A função `analyze_weather_data(weather_data)` na linha 37 analisa os dados climáticos coletados e fornece aconselhamento sobre navegação, pesca e mergulho com base nessas condições. Ela retorna alertas e aconselhamento para cada atividade.
 
 ### Treinamento do Modelo de Tempestade
-A função train_storm_model() na linha 83 é responsável por gerar e treinar um modelo de aprendizado de máquina para prever tempestades. Ela retorna o modelo treinado e sua precisão.
+A função `train_storm_model()` na linha 83 é responsável por gerar e treinar um modelo de aprendizado de máquina para prever tempestades. Ela retorna o modelo treinado e sua precisão.
 
 ### Treinamento do Modelo de Derramamento de Óleo
-A função train_model() na linha 113 é responsável por gerar e treinar um modelo de aprendizado de máquina para prever derramamentos de óleo. Ela retorna o modelo treinado e sua precisão.
+A função `train_model()` na linha 113 é responsável por gerar e treinar um modelo de aprendizado de máquina para prever derramamentos de óleo. Ela retorna o modelo treinado e sua precisão.
 
 ### Previsão de Tempestade e Derramamento de Óleo
 A parte final do código na linha 151 usa os modelos treinados para fazer previsões com base nos dados climáticos coletados. Ele imprime as previsões de tempestade e derramamento de óleo.
