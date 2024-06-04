@@ -3,9 +3,9 @@
 Este é um sistema simples para prever condições climáticas usando a API da OpenWeatherMap. O sistema fornece aconselhamento sobre navegação, pesca e mergulho com base nos dados climáticos coletados. Além disso, inclui modelos de aprendizado de máquina para prever tempestades e derramamentos de óleo.
 
 ## Requisitos
-- **Python 3.x: O código foi desenvolvido em Python 3.
+- Python 3.x: O código foi desenvolvido em Python 3.
 
-- **Bibliotecas: Certifique-se de ter as bibliotecas necessárias instaladas. Você pode instalar as dependências executando o seguinte comando:
+- Bibliotecas: Certifique-se de ter as bibliotecas necessárias instaladas. Você pode instalar as dependências executando o seguinte comando:
 
 ```bash
 pip install -r requirements.txt
@@ -50,5 +50,5 @@ Este projeto está licenciado sob a Licença MIT. Sinta-se à vontade para usar,
 ## Autores
 ## Grupo GRM solutions
 ## Integrantes:
-- **Geronimo Augusto RM- 557170
-- **Murilo Cordeiro RM- 556727
+- Geronimo Augusto RM- 557170
+- Murilo Cordeiro RM- 556727
