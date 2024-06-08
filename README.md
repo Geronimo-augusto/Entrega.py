@@ -36,7 +36,7 @@ O sistema possui as seguintes funcionalidades:
 ## Uso
 - Executar o arquivo entrega_gs.exe
 
-## Funcionamento
+## Utilidade dos arquivos
 
 1. **data.py**: Contém as funções para coleta de dados e geração de datasets. Exemplo de uso:
     ```python
