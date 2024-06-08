@@ -20,6 +20,7 @@ O sistema possui as seguintes funcionalidades:
 - **Previsão de Tempestades**
 
 ## Requisitos
+<<<<<<< HEAD
 
 - Python 3.6+
 - Bibliotecas:
@@ -28,6 +29,11 @@ O sistema possui as seguintes funcionalidades:
   - scikit-learn
   - dearpygui
   - numpy
+=======
+- Python 3.x: O código foi desenvolvido em Python 3.
+
+- Bibliotecas: Certifique-se de ter as bibliotecas necessárias instaladas. Você pode instalar as dependências executando o seguinte comando:
+>>>>>>> 416e4883de3de7b808cee040c5481372d53ff11f
 
 ## Uso
 - Executar o arquivo entrega_gs.exe
@@ -43,6 +49,7 @@ O sistema possui as seguintes funcionalidades:
         weather_data = get_weather_data(city, api_key)
     ```
 
+<<<<<<< HEAD
 2. **engine.py**: Contém as funções para analisar dados e realizar previsões. Exemplo de uso:
     ```python
         import engine 
@@ -60,6 +67,20 @@ O sistema possui as seguintes funcionalidades:
     ```python
         import dearpygui.dearpygui as dpg
         import engine
+=======
+## Funcionamento do Código
+### Coleta de Dados Climáticos
+A função `get_weather_data(city, api_key)` na linha 13 é responsável por obter os dados climáticos da API da OpenWeatherMap para a cidade especificada. Ela usa a chave da API e a cidade como entrada e retorna os dados climáticos.
+
+### Análise dos Dados Climáticos
+A função `analyze_weather_data(weather_data)` na linha 37 analisa os dados climáticos coletados e fornece aconselhamento sobre navegação, pesca e mergulho com base nessas condições. Ela retorna alertas e aconselhamento para cada atividade.
+
+### Treinamento do Modelo de Tempestade
+A função `train_storm_model()` na linha 83 é responsável por gerar e treinar um modelo de aprendizado de máquina para prever tempestades. Ela retorna o modelo treinado e sua precisão.
+
+### Treinamento do Modelo de Derramamento de Óleo
+A função `train_model()` na linha 113 é responsável por gerar e treinar um modelo de aprendizado de máquina para prever derramamentos de óleo. Ela retorna o modelo treinado e sua precisão.
+>>>>>>> 416e4883de3de7b808cee040c5481372d53ff11f
 
         # Código da interface
         # ...
@@ -72,6 +93,7 @@ O sistema possui as seguintes funcionalidades:
 
 No arquivo `main.py`, a interface gráfica foi criada usando Dear PyGui. Aqui está um exemplo simplificado de como a interface está configurada:
 
+<<<<<<< HEAD
 ```python
     import dearpygui.dearpygui as dpg
     import engine
@@ -107,3 +129,10 @@ No arquivo `main.py`, a interface gráfica foi criada usando Dear PyGui. Aqui es
         dpg.destroy_context()
 
 ```
+=======
+# Autores
+## Grupo GRM solutions
+### Integrantes:
+- Geronimo Augusto RM- 557170
+- Murilo Cordeiro RM- 556727
+>>>>>>> 416e4883de3de7b808cee040c5481372d53ff11f
