@@ -9,7 +9,7 @@ import numpy as np
 # Função para pegar os dados climáticos 
 def get_weather_data(city, api_key):
     # Faz a requisição à API da OpenWeather
-    url = f'http://api.openweathermap.org/data/2.5/forecast?q={city}&appid={api_key}&units=metric'
+    url = f'https://api.openweathermap.org/data/2.5/forecast?q={city}&appid={api_key}&units=metric'
     response = requests.get(url)
     data = response.json()
     

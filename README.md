@@ -130,3 +130,6 @@ No arquivo `main.py`, a interface gráfica foi criada usando Dear PyGui. Aqui es
 ### Integrantes:
 - Geronimo Augusto RM- 557170
 - Murilo Cordeiro RM- 556727
+
+link do repositório: https://github.com/Geronimo-augusto/Entrega.py
+link do video no youtube: https://www.youtube.com/watch?v=1I2rtX8d3KA
